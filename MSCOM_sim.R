@@ -5,6 +5,7 @@ library(reshape2)
 library(ggplot2)
 
 main_dir <- "C:\\merrill\\MS-COM\\mscom_sim"
+
 R_dir <- file.path(main_dir, "R")
 
 funs <- list.files(R_dir)
